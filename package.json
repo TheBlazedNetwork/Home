@@ -1,6 +1,6 @@
 {
-  "name": "zoewebsite",
-  "homepage": "http://zotrani.github.io/zoeweb",
+  "name": "theblazednetwork",
+  "homepage": "http://zotrani.github.io/theblazednetwork",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "react-dom": "^17.0.1",
     "react-hamburger-menu": "^1.2.1",
     "react-icons": "^4.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.2",
     "react-scrolling-nav": "^1.1.5",
     "react-transition-group": "^4.4.1",

@@ -11,18 +11,22 @@
 }
 
 .navbar{
-  display: block;
-  font-family: raleway;
-  float:right;
-  padding-top: 20px;
-  font-size: 25px;
-  list-style-type: none;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px;
+  background-color: #24252a;
+  z-index: 1
+}
+
+.logo {
+  margin-right: auto;
 }
 
 .logo{
   padding: 10px 10px;
   margin-bottom: 0px;
-  background: pink;
   position:fixed;
   left:10px;
   top:15px;
@@ -30,9 +34,8 @@
   z-index: 1;
 }
 .btn{
-  color:black;
-  background:white;
-  padding:10px 20px;
+  color:#ff374c;
+  padding: 5px 20px;
   font-size: 20px;
   text-decoration:none;
   letter-spacing:2px;
@@ -41,92 +44,96 @@
 
 .btn:hover{
   border:none;
-  background: pink;
-  padding: 15px 20px;
+  background: #ff374c;
+  padding: 5px 20px;
   color:white;
 }
-.mobileIcon{
-  display: none;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 0px;
+  grid-gap: 100px;
+  justify-content: center;
+}
+.navposition {
+  float: right;
 }
 
-@media all and (max-width: 550px){
+@media all and (max-width: 500px){
   .btn{
     display:none;
+  }
+  .navbar{
+    display: none;
   }
   .logo{
     position: fixed;
     z-index: 1;
   }
-  .mobileIcon{
-    display:inline-block;
-    margin-right: 15px;
-    margin-bottom: 10px;
-    width: 40px;
-    height: 40px;
-    line-height: 46px;
-    border-radius: 30%;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    background: pink;
-  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    max-width: 500px;
+  } 
 }
-.home{
-  height: 100vh;
-  background: pink;
-  display:inline-block;
-  width:100%;
-  padding: 100px;
 
-}
-.about{
+.home{ 
   height: 100%;
-  background: white;
+  display: inline-block;
+  width: 100%;
+  
+	padding-top: 80px;
+	padding-bottom: 80px;
+  background-color: #313135;
+}
+
+.crypto{
+  height: 100%;  
+  background-color: #313135;
   display:inline-block;
   width:100%;
-  padding:50px;
+  padding-top: 50px;
 	padding-bottom: 80px;
 }
-.blog{
-  height: 100vh;
-  background: pink;
-  display:inline-block;
-  width:100%;
-}
-.contact{
+.forums{
+  background-color: #494949;
   height: 100%;
-  padding-top: 90px;
-  background: white;
-  display:inline-block;
+  padding-top: 10px;
+  display: inline-block;
   width:100%;
 }
-
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+}
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 100px;
+  border-radius: 10px;
   position: relative;
-  align-content: center;
-  padding: 5px;
+  justify-content: center;
 }
 p{
-  font-family: 'American Typewriter, serif';
+  font-family: "Lucida Console";
   font-size: 50px;
   text-align: center;
   border-radius: 100px;
-  border: 2px solid #FFC0CB;
+  border: 2px solid #ff374c;
   margin-top: 5px;
-  color: lightblue;
+  color: black;
 
 }
 .edu{
-  font-family: 'American Typewriter, serif';
-  background: lightblue;
-  border: 2px solid #FFC0CB;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 10px;
+  font-family: "Lucida Console";
+  color: lightgrey;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkblue;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -140,16 +147,15 @@ li{
 }
 .container{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 .arrow {
-  position: absolute;
-  bottom: 0;
-  width: 50px;
+  padding-top: 300px;
   color: white;
   font-size: 50px;
 }
@@ -157,27 +163,25 @@ h1{
   margin:5px;
   text-decoration: underline;
   font-size: 20px;
-  font-family: 'American Typewriter, serif';
+  padding: 4px;
+  font-family: "Lucida Console";
 }
 h2{
   text-decoration: none;
-  font-size: 20px;
-  font-family: 'American Typewriter, serif';
+  font-size: 15px; 
+  font-family: "Lucida Console"
 }
-h3{
-
-}
-.hobbyIcon{
+.socialsIcons{
   display: inline-block;
   margin: 0 10px;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   border-radius: 30%;
-  line-height: 73px;
-  font-size: 40px;
+  line-height: 45px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  background: pink;
+  background: #ff374c;
 }
 
 label {
@@ -205,10 +209,31 @@ footer{
   position: static;
   width: 100%;
   color: black;
-  padding-top: 50px;
-  line-height: 100px;
-  font-size: 0.7em;
+  line-height: 2rem;
+  font-size: 0.99em;
   text-align: center;
   bottom:0;
 
+}
+
+
+.image{
+  width: 150px;
+  height: 150px;
+  background: url(https://i.ibb.co/kSfb5Nd/closed-PNGScaled.png) no-repeat;
+  background-size: contain;
+}
+.image:hover{
+  width: 150px;
+  height: 150px;
+  background: url(https://i.ibb.co/qY45FCp/open-PNGScaled.png) no-repeat;
+  background-size: contain;
+}
+
+.centerItems {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: auto;
+  justify-content: center;
+  padding-top: 10px;
 }

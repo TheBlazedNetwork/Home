@@ -1,41 +1,76 @@
-import { FaChevronCircleDown } from 'react-icons/fa';
+import {FaInstagramSquare,FaYoutube, FaChevronCircleDown, FaRocketchat, FaDiscord } from 'react-icons/fa';
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
 import { Zoom } from "react-awesome-reveal";
 import { Link } from 'react-scroll';
 
 class Home extends React.Component{
   render(){
+    const grids = {
+      border: "3px solid #ffae20",
+      boxShadow: "3px 10px black",
+      borderRadius: "25px",
+      color: "white",
+      background: "#1a1a1b",
+      padding: "20px",
+      height: "100%",
+    }
     return(
-      <div className="home">
-        <Zoom>
-        <div className="container">
-          <img src="https://i.ibb.co/CHgTwsT/zoe-Overlay.png" height="auto" width="270px" max-width="50%" alt="HomeZoe"></img>
+      <div>
+        <div className="navbar">
+          <Link to="home" smooth={false}><div src="https://i.ibb.co/99JbGxR/blaze.png" width="45" height="45"></div></Link>
+          <Link to="home" smooth={false} className="btn">Home</Link>
+          <Link to="crypto" smooth={false} className="btn">Crypto</Link>
+          <a className="btn" href="https://theblazednetwork.enjin.com/">Forums</a>
+        <div className="navposition">
+          <a className="socialsIcons" href="https://www.instagram.com/theblazednetwork/"><FaInstagramSquare/></a>
+          <a className="socialsIcons" href="https://discord.io/theblazednetwork"><FaDiscord /></a>
+          <a className="socialsIcons" href="https://www.youtube.com/channel/UCjQQwA7fM5zumwRAzjFirxA"><FaYoutube /></a>
+        
         </div>
-        </Zoom>
-        <div className="container">
-          <ReactTypingEffect
-            text={["'Hello! My name is Zoe. Welcome to my page!'",
-            "'I'm studying computer engineering at RIT.","'My favorite hobby is art (photography, drawing)!'","'Scroll down to learn more about me!'",
-            "'Have a lovely day! Thanks for visiting! <3'"]}
-            speed={70}
-            style={{
-             fontFamily: 'TypeWriter',
-             color: 'white',
-             fontWeight: 500,
-             fontSize: '20px',
+        </div>
+        
+        <div className="home">
+          <Zoom>
+            <a href ="https://theblazednetwork.enjin.com/" ><img src="https://i.ibb.co/kMDW7yw/server-logo-blaze-BIGGER.png" height="auto" width="350px" max-width="50%" alt="BlazedHome"></img>
+            </a>
+            <div className="grid-container">
+              <div style={grids}>
+                <div className="edu">
+                  <h1>Factions Top Prizes</h1>
+                  <h2>
+                    1) 100 Store Credit, 10 Blaze Tokens <br/>
+                    2) 50 Store Credit, 5 Blaze Tokens <br/>
+                    3) 25 Store Credit, 3 Blaze Tokens <br/>
+                  </h2>
 
-            }}
-            eraseSpeed={60}
-            eraseDelay={700}
-            staticText={["ZOE : "]}/>
+                  Season starts July 4th 2021 <br/>
+                  Season Ends August 20th 2021
+                </div>
+                 
+              </div>
+              <div  style={grids}>
+                <div className="edu">
+                  <h1>Skyblock Top Prizes</h1>
+                  <h2>
+                    1) 100 Store Credit, 10 Blaze Tokens <br/>
+                    2) 50 Store Credit, 5 Blaze Tokens <br/>
+                    3) 25 Store Credit, 3 Blaze Tokens <br/>
+                  </h2>
 
+                  Season starts July 4th 2021 <br/>
+                  Season Ends August 20th 2021
+                </div>
+              </div>
+            </div>
+          </Zoom>
+          <div className="container">
             <div className="arrow" >
-               <Link to="about" > <FaChevronCircleDown /></Link>
+                <Link to="crypto" > <FaChevronCircleDown /></Link>
             </div>
           </div>
-
-         </div>
+        
+        </div>
+      </div>
 
     )
   }
