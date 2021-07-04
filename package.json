@@ -1,6 +1,6 @@
 {
-  "name": "TheBlazedNetworkWebsite",
-  "homepage": "https://theblazednetwork.github.io/TheBlazedNetworkWebsite/",
+  "name": "Home",
+  "homepage": "https://theblazednetwork.github.io/Home/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
