@@ -36,13 +36,13 @@ class Home extends React.Component{
                 <div className="edu">
                   <h1>Factions Top Prizes</h1>
                   <h2>
-                    1) 100 Store Credit, 10 Blaze Tokens <br/>
-                    2) 50 Store Credit, 5 Blaze Tokens <br/>
-                    3) 25 Store Credit, 3 Blaze Tokens <br/>
+                    1) $50 store credit, 5 Blaze Tokens<br/>
+                    2) $25 Store credit, 3 Blaze tokens<br/>
+                    3) $10 Store credit, 3 Blaze tokens<br/>
                   </h2>
 
-                  Season starts July 4th 2021 <br/>
-                  Season Ends August 20th 2021
+                  Season Starts: July 4th 2021 <br/>
+                  Season Ends: July 31st 2021
                 </div>
                  
               </div>
@@ -50,13 +50,13 @@ class Home extends React.Component{
                 <div className="edu">
                   <h1>Skyblock Top Prizes</h1>
                   <h2>
-                    1) 100 Store Credit, 10 Blaze Tokens <br/>
-                    2) 50 Store Credit, 5 Blaze Tokens <br/>
-                    3) 25 Store Credit, 3 Blaze Tokens <br/>
+                    1) $50 store credit, 5 Blaze Tokens<br/>
+                    2) $25 Store credit, 3 Blaze tokens<br/>
+                    3) $10 Store credit, 3 Blaze tokens<br/>
                   </h2>
 
-                  Season starts July 4th 2021 <br/>
-                  Season Ends August 20th 2021
+                  Season Starts: July 4th 2021 <br/>
+                  Season Ends: August 20th 2021
                 </div>
               </div>
             </div>
