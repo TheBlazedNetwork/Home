@@ -27,7 +27,7 @@ class Crypto extends React.Component{
                   <u>Crypto Discord Rank<br/></u>
                   PRICE: 1 Blaze Token
                 </div>
-                <a className="BuyBtn" href="https://theblazednetwork.enjin.com/">BUY</a>
+                <a className="BuyBtn">BUY</a>
             </div>
             <div  style={grids}>
                 
@@ -39,7 +39,7 @@ class Crypto extends React.Component{
                   What could it be?<br/>
                   PRICE: 15 Blaze Token
                 </div>
-                <a className="BuyBtn" href="https://theblazednetwork.enjin.com/">BUY</a>
+                <a className="BuyBtn">BUY</a>
             </div>
             <div  style={grids}>
                 
@@ -49,7 +49,7 @@ class Crypto extends React.Component{
                     </u>
                     PRICE: 2 Blaze Token
                 </div>
-                <a className="BuyBtn" href="https://theblazednetwork.enjin.com/">BUY</a>
+                <a className="BuyBtn">BUY</a>
             </div>
             <div  style={grids}>
                 <div className="cryptoDescription">
@@ -59,7 +59,7 @@ class Crypto extends React.Component{
                     In game suffix across<br/> all servers on <br/>the network<br/>
                     PRICE: 2 Blaze Token
                 </div>
-                <a className="BuyBtn" href="https://theblazednetwork.enjin.com/">BUY</a>
+                <a className="BuyBtn">BUY</a>
             </div>
             <div  style={grids}>
                 <div className="cryptoDescription">
@@ -67,7 +67,7 @@ class Crypto extends React.Component{
                   <u>5 Million Tokens<br/></u>
                     PRICE: 2 Blaze Token
                 </div>
-                <a className="BuyBtn" href="https://theblazednetwork.enjin.com/">BUY</a>
+                <a className="BuyBtn">BUY</a>
             </div>
             <div  style={grids}>
                 <div className="cryptoDescription">
@@ -75,7 +75,7 @@ class Crypto extends React.Component{
                   <u>10000 Gems<br/></u>
                     PRICE: 3 Blaze Token
                 </div>
-                <a className="BuyBtn" href="https://theblazednetwork.enjin.com/">BUY</a>
+                <a className="BuyBtn">BUY</a>
             </div>
           </div>
         </div>
