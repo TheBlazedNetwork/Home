@@ -49,6 +49,27 @@
   color:white;
 }
 
+.BuyBtn{
+  color: #ff374c;
+  padding: 5px 20px;
+  border-radius: 50px;
+  background: #ffd344;
+  font-size: 25px;
+  position: relative;
+  left: 45%;
+  text-decoration: none;
+  letter-spacing: 2px;
+  width: 100%;
+  font-family: "Lucida Console";
+}
+
+.BuyBtn:hover{
+  border:none;
+  background: #ff374c;
+  padding: 5px 20px;
+  color:white;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -65,7 +86,8 @@
     display:none;
   }
   .navbar{
-    display: none;
+    display: flex;
+    padding-left: 23%;
   }
   .logo{
     position: fixed;
@@ -77,6 +99,10 @@
     row-gap: 20px;
     max-width: 500px;
   } 
+  .BuyBtn{
+    position: relative;
+    left: 30%;
+  }
 }
 
 .home{ 
@@ -118,16 +144,19 @@ img{
   margin-right: auto;
   border-radius: 10px;
   position: relative;
+  padding-bottom: 15px;
   justify-content: center;
 }
 p{
   font-family: "Lucida Console";
   font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;  
   text-align: center;
   border-radius: 100px;
-  border: 2px solid #ff374c;
+  border: 5px solid #ff874e;
   margin-top: 5px;
-  color: black;
+  color: #d86e3d;
 
 }
 .edu{
@@ -138,6 +167,19 @@ p{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.cryptoDescription{
+  font-family: "Lucida Console";
+  color: lightgrey;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkblue;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
   align-content: center;
   align-items: center;
 }

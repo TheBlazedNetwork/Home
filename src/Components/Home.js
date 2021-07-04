@@ -1,4 +1,4 @@
-import {FaInstagramSquare,FaYoutube, FaChevronCircleDown, FaRocketchat, FaDiscord } from 'react-icons/fa';
+import {FaInstagramSquare,FaYoutube, FaChevronCircleDown, FaHome, FaDiscord } from 'react-icons/fa';
 import React from 'react';
 import { Zoom } from "react-awesome-reveal";
 import { Link } from 'react-scroll';
@@ -17,16 +17,14 @@ class Home extends React.Component{
     return(
       <div>
         <div className="navbar">
-          <Link to="home" smooth={false}><div src="https://i.ibb.co/99JbGxR/blaze.png" width="45" height="45"></div></Link>
-          <Link to="home" smooth={false} className="btn">Home</Link>
           <Link to="crypto" smooth={false} className="btn">Crypto</Link>
           <a className="btn" href="https://theblazednetwork.enjin.com/">Forums</a>
-        <div className="navposition">
-          <a className="socialsIcons" href="https://www.instagram.com/theblazednetwork/"><FaInstagramSquare/></a>
-          <a className="socialsIcons" href="https://discord.io/theblazednetwork"><FaDiscord /></a>
-          <a className="socialsIcons" href="https://www.youtube.com/channel/UCjQQwA7fM5zumwRAzjFirxA"><FaYoutube /></a>
-        
-        </div>
+          <div className="navposition">
+            <Link to="home" smooth={false}><a className="socialsIcons"><FaHome/></a></Link>
+            <a className="socialsIcons" href="https://www.instagram.com/theblazednetwork/"><FaInstagramSquare/></a>
+            <a className="socialsIcons" href="https://discord.io/theblazednetwork"><FaDiscord /></a>
+            <a className="socialsIcons" href="https://www.youtube.com/channel/UCjQQwA7fM5zumwRAzjFirxA"><FaYoutube /></a>
+          </div>
         </div>
         
         <div className="home">

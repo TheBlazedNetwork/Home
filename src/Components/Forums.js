@@ -10,8 +10,9 @@ class Forums extends React.Component{
     }
     const text = { 
     fontFamily: "Lucida Console",
+    textShadow: "1px 1px 2px black, 0 0 25px grey, 0 0 5px white",
     fontSize: "25px",
-    color: "black",
+    color: "#ffce55",
     position: "center",
     left: "50%",                        /* horizontal alignment */
     top: "60%",                         /* vertical alignment */
