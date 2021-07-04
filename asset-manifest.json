@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TheBlazedNetworkWebsite/static/css/main.161b20c1.chunk.css",
+    "main.js": "/TheBlazedNetworkWebsite/static/js/main.c1f2d3bc.chunk.js",
+    "main.js.map": "/TheBlazedNetworkWebsite/static/js/main.c1f2d3bc.chunk.js.map",
+    "runtime-main.js": "/TheBlazedNetworkWebsite/static/js/runtime-main.ee2aac9d.js",
+    "runtime-main.js.map": "/TheBlazedNetworkWebsite/static/js/runtime-main.ee2aac9d.js.map",
+    "static/css/2.23154d62.chunk.css": "/TheBlazedNetworkWebsite/static/css/2.23154d62.chunk.css",
+    "static/js/2.a76ab4a3.chunk.js": "/TheBlazedNetworkWebsite/static/js/2.a76ab4a3.chunk.js",
+    "static/js/2.a76ab4a3.chunk.js.map": "/TheBlazedNetworkWebsite/static/js/2.a76ab4a3.chunk.js.map",
+    "static/js/3.5e32da00.chunk.js": "/TheBlazedNetworkWebsite/static/js/3.5e32da00.chunk.js",
+    "static/js/3.5e32da00.chunk.js.map": "/TheBlazedNetworkWebsite/static/js/3.5e32da00.chunk.js.map",
+    "index.html": "/TheBlazedNetworkWebsite/index.html",
+    "static/css/2.23154d62.chunk.css.map": "/TheBlazedNetworkWebsite/static/css/2.23154d62.chunk.css.map",
+    "static/css/main.161b20c1.chunk.css.map": "/TheBlazedNetworkWebsite/static/css/main.161b20c1.chunk.css.map",
+    "static/js/2.a76ab4a3.chunk.js.LICENSE.txt": "/TheBlazedNetworkWebsite/static/js/2.a76ab4a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee2aac9d.js",
+    "static/css/2.23154d62.chunk.css",
+    "static/js/2.a76ab4a3.chunk.js",
+    "static/css/main.161b20c1.chunk.css",
+    "static/js/main.c1f2d3bc.chunk.js"
+  ]
+}
