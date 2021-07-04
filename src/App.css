@@ -1,0 +1,281 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  -webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+.navbar{
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px;
+  background-color: #24252a;
+  z-index: 1
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo{
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  position:fixed;
+  left:10px;
+  top:15px;
+  float: left;
+  z-index: 1;
+}
+.btn{
+  color:#ff374c;
+  padding: 5px 20px;
+  font-size: 20px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:full-width;
+}
+
+.btn:hover{
+  border:none;
+  background: #ff374c;
+  padding: 5px 20px;
+  color:white;
+}
+
+.BuyBtn{
+  color: #ff374c;
+  padding: 5px 20px;
+  border-radius: 50px;
+  background: #ffd344;
+  font-size: 25px;
+  position: relative;
+  left: 45%;
+  text-decoration: none;
+  letter-spacing: 2px;
+  width: 100%;
+  font-family: "Lucida Console";
+}
+
+.BuyBtn:hover{
+  border:none;
+  background: #ff374c;
+  padding: 5px 20px;
+  color:white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 0px;
+  grid-gap: 100px;
+  justify-content: center;
+}
+.navposition {
+  float: right;
+}
+
+@media all and (max-width: 500px){
+  .btn{
+    display:none;
+  }
+  .navbar{
+    display: flex;
+    padding-left: 23%;
+  }
+  .logo{
+    position: fixed;
+    z-index: 1;
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    max-width: 500px;
+  } 
+  .BuyBtn{
+    position: relative;
+    left: 30%;
+  }
+}
+
+.home{ 
+  height: 100%;
+  display: inline-block;
+  width: 100%;
+  
+	padding-top: 80px;
+	padding-bottom: 80px;
+  background-color: #313135;
+}
+
+.crypto{
+  height: 100%;  
+  background-color: #313135;
+  display:inline-block;
+  width:100%;
+  padding-top: 50px;
+	padding-bottom: 80px;
+}
+.forums{
+  background-color: #494949;
+  height: 100%;
+  padding-top: 10px;
+  display: inline-block;
+  width:100%;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+p{
+  font-family: "Lucida Console";
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;  
+  text-align: center;
+  border-radius: 100px;
+  border: 5px solid #ff874e;
+  margin-top: 5px;
+  color: #d86e3d;
+
+}
+.edu{
+  font-family: "Lucida Console";
+  color: lightgrey;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkblue;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.cryptoDescription{
+  font-family: "Lucida Console";
+  color: lightgrey;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkblue;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  align-content: center;
+  align-items: center;
+}
+li{
+  margin: 5px;
+  list-style: none;
+}
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 10px;
+}
+.arrow {
+  padding-top: 300px;
+  color: white;
+  font-size: 50px;
+}
+h1{
+  margin:5px;
+  text-decoration: underline;
+  font-size: 20px;
+  padding: 4px;
+  font-family: "Lucida Console";
+}
+h2{
+  text-decoration: none;
+  font-size: 15px; 
+  font-family: "Lucida Console"
+}
+.socialsIcons{
+  display: inline-block;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  line-height: 45px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background: #ff374c;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type=text], input[type=email], textarea{
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+footer{
+  position: static;
+  width: 100%;
+  color: black;
+  line-height: 2rem;
+  font-size: 0.99em;
+  text-align: center;
+  bottom:0;
+
+}
+
+
+.image{
+  width: 150px;
+  height: 150px;
+  background: url(https://i.ibb.co/kSfb5Nd/closed-PNGScaled.png) no-repeat;
+  background-size: contain;
+}
+.image:hover{
+  width: 150px;
+  height: 150px;
+  background: url(https://i.ibb.co/qY45FCp/open-PNGScaled.png) no-repeat;
+  background-size: contain;
+}
+
+.centerItems {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: auto;
+  justify-content: center;
+  padding-top: 10px;
+}
