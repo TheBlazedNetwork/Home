@@ -87,7 +87,8 @@
   }
   .navbar{
     display: flex;
-    padding-left: 23%;
+    padding-right: 10%;
+    padding-left: 10%;
   }
   .logo{
     position: fixed;
@@ -257,7 +258,6 @@ footer{
   bottom:0;
 
 }
-
 
 .image{
   width: 150px;

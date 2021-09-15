@@ -1,4 +1,4 @@
-import {FaInstagramSquare,FaYoutube, FaChevronCircleDown, FaHome, FaDiscord } from 'react-icons/fa';
+import {FaInstagramSquare,FaYoutube, FaShoppingCart, FaChevronCircleDown, FaHome, FaDiscord } from 'react-icons/fa';
 import React from 'react';
 import { Zoom } from "react-awesome-reveal";
 import { Link } from 'react-scroll';
@@ -24,6 +24,8 @@ class Home extends React.Component{
             <a className="socialsIcons" href="https://www.instagram.com/theblazednetwork/"><FaInstagramSquare/></a>
             <a className="socialsIcons" href="https://discord.io/theblazednetwork"><FaDiscord /></a>
             <a className="socialsIcons" href="https://www.youtube.com/channel/UCjQQwA7fM5zumwRAzjFirxA"><FaYoutube /></a>
+            <a className="socialsIcons" href="https://blazedfactions.tebex.io/"><FaShoppingCart/></a>
+
           </div>
         </div>
         
@@ -36,13 +38,13 @@ class Home extends React.Component{
                 <div className="edu">
                   <h1>Factions Top Prizes</h1>
                   <h2>
-                    1) $50 store credit, 5 Blaze Tokens<br/>
-                    2) $25 Store credit, 3 Blaze tokens<br/>
-                    3) $10 Store credit, 3 Blaze tokens<br/>
+                    1) $75 PayPal, $25 Buycraft<br/>
+                    2) $25 PayPal, $20 Buycraft<br/>
+                    3) $20 Buycraft<br/>
                   </h2>
-
-                  Season Starts: July 4th 2021 <br/>
-                  Season Ends: July 31st 2021
+                  <br/>
+                  Season Starts: <br/>Sept. 18th, 2021 @ 3pm EST <br/>
+                  Season Ends: <br/> Oct. 2nd, 2021 @ 3pm EST
                 </div>
                  
               </div>
@@ -50,20 +52,15 @@ class Home extends React.Component{
                 <div className="edu">
                   <h1>Skyblock Top Prizes</h1>
                   <h2>
-                    1) $50 store credit, 5 Blaze Tokens<br/>
-                    2) $25 Store credit, 3 Blaze tokens<br/>
-                    3) $10 Store credit, 3 Blaze tokens<br/>
+                    No Current Season
                   </h2>
-
-                  Season Starts: July 4th 2021 <br/>
-                  Season Ends: August 20th 2021
                 </div>
               </div>
             </div>
           </Zoom>
           <div className="container">
             <div className="arrow" >
-                <Link to="crypto" > <FaChevronCircleDown /></Link>
+                <Link to="donations" > <FaChevronCircleDown /></Link>
             </div>
           </div>
         
